@@ -1,20 +1,22 @@
-# Virtual environment
+# Python
 venv/
-
-# Python cache files
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 
-# Environment variables / secrets
+# Secrets and local config: never commit
 .env
-.env1
+.env*
 
-# Mac system file
-.DS_Store
+# Generated at runtime
+airflow/airflow-data/
+lambda/**/*.zip
+spark-warehouse/
 
-# Personal notes
+# Local notes and scratch files
 project-notes.txt
 test_kinesis.py
 
-.env
+# OS
+.DS_Store
