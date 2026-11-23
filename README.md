@@ -6,6 +6,12 @@ A data platform for a simulated online store that handles both streaming and bat
 
 > Part of my portfolio at **[devanshi4.github.io](https://devanshi4.github.io)**
 
+## Highlights
+
+- **Streaming and batch in one platform:** clickstream through Kinesis and Lambda, daily orders through Airflow.
+- **Medallion lakehouse on S3:** bronze, silver and gold layers in PySpark, queryable in Athena through the Glue catalog.
+- **Clicks joined to purchases:** answers which devices convert, and how engagement relates to spend.
+
 ---
 
 ## The problem
