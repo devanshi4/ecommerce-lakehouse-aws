@@ -1,7 +1,7 @@
 """Daily batch pipeline: generate orders, check they landed, clean to silver, build gold.
 
 The transformations here use pandas so the DAG runs on a laptop. The PySpark version,
-which also covers the clickstream data, is in notebooks/phase3_transformations.ipynb.
+which also covers the clickstream data, is in notebooks/medallion_transformations.ipynb.
 """
 from airflow import DAG
 from airflow.operators.python import PythonOperator

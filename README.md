@@ -118,7 +118,7 @@ You need an AWS account with an S3 bucket, a Kinesis stream and a deployed Lambd
 ├── jobs/
 │   └── medallion_job.py         # PySpark bronze -> silver -> gold, with a quality gate
 ├── notebooks/
-│   └── phase3_transformations.ipynb  # the same logic, step by step
+│   └── medallion_transformations.ipynb  # the same logic, step by step
 └── airflow/
     ├── dags/ecommerce_pipeline.py    # Daily batch DAG
     └── docker-compose.yml

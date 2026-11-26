@@ -1,7 +1,7 @@
 """
 Bronze → Silver → Gold with PySpark.
 
-The same transformations as notebooks/phase3_transformations.ipynb, packaged
+The same transformations as notebooks/medallion_transformations.ipynb, packaged
 as a script so they can run with spark-submit (locally, on EMR, or as a
 Glue job) instead of only inside a notebook.
 
